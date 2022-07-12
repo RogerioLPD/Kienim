@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(/public/static/images/velocimetro.png);
+  background-size: cover;
+ }
+ .container1 {
+  max-width: 75vw;
+
+  
+}
+.container1 .text{
+  
+    display: flex;
+    text-align:center;
+    color: white;
+    font-size:250%;
+    border-radius: 16px;
+    margin-top: -10px;
+    font-weight: 700;
+    font-style: italic;
+    background-color: #0e1fb46c;
+}
+.container1 .text .title{
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  
+}
+  .container1  .home{
+    width: 100%;
+    background-color: transparent;
+    margin-top: 5px;
+    color:white ;
+    display: flex;
+    margin-left: -100px;
+    font-size: 100%;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .container1 .carousel1 {
+    display: flex;
+    margin-top: -5px;
+    overflow-x:auto;
+    scroll-behavior: smooth;
+  }
+  .container1 .carousel1 .item {
+    background-color:#0e1fb46c;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    border-radius: 16px;
+    flex: none;
+    height: 360px;
+  }
+  .container1 .carousel1 .item .info {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  .container1 .buttons {
+    width: 100%;
+    text-align: center;
+  }
+  .container1 .buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .container1 .buttons button:first-child img {
+    transform: rotate(180deg);
+  }
+  .container1 .footer {
+    color: azure;
+  }
+  .container1 .footer1 {
+    color:rgb(241, 238, 10) ;
+  
+  }
+  .container1 .carousel1 .info .button {
+    align-self: center;
+    color:#0e1fb46c;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #00a8fb;
+  
+    
+  }
+  
+  
+  .container1 .carousel1  .info .name {
+    height: 140px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  .container1 .carousel1::-webkit-scrollbar {
+    display: none;
+  }

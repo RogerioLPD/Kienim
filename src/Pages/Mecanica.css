@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(/public/static/images/velocimetro.png);
+  background-size: cover;
+ }
+ .container1 {
+  max-width: 75vw;
+
+  
+}
+.container1 .text1 {
+    
+    display: flex;
+    text-align:center;
+    color: white;
+    font-size:250%;
+    border-radius: 16px;
+    margin-top: -10px;
+    font-weight: 700;
+    font-style: italic;
+    background-color: #0e1fb46c;
+}
+.container1 .text1 .title{
+    width: 100%;
+  align-self: center;
+  text-align: center;
+    
+}
+
+.container1 .main{
+    
+    margin: 10px;
+    padding: 10px;
+    width: 1000px;
+    border-radius: 16px;
+    flex: none;
+    height: 450px;
+    justify-content:space-between;
+    
+}
+ 
+  .container1  .home{
+    width: 100%;
+    background-color: transparent;
+    margin-top: 5px;
+    color:white;
+    display: flex;
+    font-size: 100%;
+    font-weight: 700;
+  }
+  .container1 .main .list{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      font-size: large;
+      color: white;
+      text-decoration: none;
+      font-weight: bolder;
+  }
+  .container1 .main .item .info {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -10px;
+  }
+  .container1 .main .item .info1 {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -10px;
+  }
+  .container1 .main .item .image img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 80px;
+  }
+  .container1 .main .item .image1 img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 30px;
+    margin-top: -200px;
+  }
+  .container1 .main .item .image2 img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+
+  }
+  .container1 .main .item .image3 img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    
+  }
+  .container1 .main .item .image4 img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    
+  }
+  .container1 .main .item .image5 img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    
+  }
+  .container1 .main .item .image6 img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    
+  }
+  .container1 .main .item .image7 img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    
+  }
+  .container1 .main .item .image8 img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    
+  }
+  .container1 .main .item .image9 img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    
+  }
+  .container1 .main .item .image10 img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    
+  
+  }
+
+
+  .container1 .main .item .info .sp {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+  }
+  .container1 .main .item .info1 .sp{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+  }
+  .container1 .main .list1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size:medium;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    font-weight: bold;
+}
+  
+  
