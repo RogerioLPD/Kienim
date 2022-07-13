@@ -9,7 +9,7 @@ export default function Pesada() {
   
 
   useEffect(() => {
-    fetch('http://localhost:3000/static/shoes.json')
+    fetch(process.env.REACT_APP_BASE_URL+ 'static/shoes.json')
       .then((response) => response.json())
       .then(setData);
   }, []);

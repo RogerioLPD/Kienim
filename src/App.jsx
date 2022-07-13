@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import React,{useEffect, useState} from 'react';
 import Remap from './Pages/Remap';
 import Home from "./Pages/Home";
@@ -30,7 +30,6 @@ import "./Login.css";
 export default function App () {
 
   return (
-      <Router>
         <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route exact path="/Login" element={<Login/>} />
@@ -56,7 +55,6 @@ export default function App () {
           <Route exact path="/Mod" element={<Mod/>} />
           <Route exact path="/Original" element={<Original/>} />   
         </Routes>
-        </Router>
 
 
   );
